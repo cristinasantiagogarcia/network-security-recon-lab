@@ -136,6 +136,16 @@ Unlike a normal TCP connection, the scanner did not complete the traditional thr
 
 This demonstrated the packet-level behavior of an Nmap SYN scan.
 
+### Wireshark Evidence
+
+The packet capture below shows TCP SYN scan traffic between the Kali Linux analyst workstation (`192.168.56.10`) and the Metasploitable 2 target (`192.168.56.20`).
+
+![Wireshark TCP SYN scan showing SYN, SYN-ACK, and RST traffic](screenshots/wireshark-syn-scan.png)
+
+**Observed sequence:** `SYN → SYN/ACK → RST`
+
+The capture confirms that the target responded to SYN probes on the tested open ports with SYN/ACK. Kali then sent RST packets rather than completing the normal TCP three-way handshake.
+
 ---
 
 ## Security Observations
