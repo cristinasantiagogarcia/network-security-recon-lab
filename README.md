@@ -68,9 +68,8 @@ A dedicated VirtualBox Internal Network named CyberLab was created to isolate la
 
 Static IPv4 addresses were assigned:
 
-Kali Linux: ```bash 192.168.56.10/24 ``` 
-
-Metasploitable 2: ```bash 192.168.56.20/24 ```
+- Kali Linux: `192.168.56.10/24` 
+- Metasploitable 2: `192.168.56.20/24`
 
 Connectivity between the systems was verified using ICMP.
 
@@ -109,7 +108,7 @@ Selected results included:
 | 3306/TCP | MySQL | MySQL 5.0.51a |
 | 5432/TCP | PostgreSQL |	PostgreSQL 8.3.x |
 | 5900/TCP | VNC	| VNC Protocol 3.3 |
-| 8180/TCP | HTTP	Apache Tomcat/Coyote
+| 8180/TCP | HTTP	| Apache Tomcat/Coyote
 
 ---
 
