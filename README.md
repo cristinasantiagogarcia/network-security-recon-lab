@@ -110,6 +110,14 @@ Selected results included:
 | 5900/TCP | VNC	| VNC Protocol 3.3 |
 | 8180/TCP | HTTP	| Apache Tomcat/Coyote
 
+### Nmap Scan Evidence
+
+The complete Nmap service/version detection output is available here:
+
+📄 [View Nmap Service Enumeration Results](results/nmap-service-scan.txt)
+
+The scan identified 23 open TCP ports and enumerated the services and software versions exposed by the target.
+
 ---
 
 ## Packet Analysis 
